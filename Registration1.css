@@ -1,0 +1,146 @@
+body{
+	/*margin: 0;
+	padding: 0;*/
+	font-family: cursive;
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,130,220,1) 74%, rgba(0,212,255,1) 100%);
+   /* background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,98,253,0.8274111675126904) 100%);
+*/
+}
+/*Nav Bar*/
+.main-nav{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 1em;
+    background: black;
+
+
+   }
+@media only screen and (max-width: 600px){
+    .main-nav{
+        font-size: 0.7px;
+        padding: 10px;
+    }
+}
+
+.push{
+    margin-left: auto;
+}
+
+li{
+    padding: 20px;
+
+}
+a{
+    color: #f5f5f6;
+    text-decoration: none;
+    }
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.loginBox{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+    height: 490px;
+    background: transparent;
+   /* background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);*/
+    border-radius: 30px;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0px 30px 30px rgba( 0, 0, 0, 0.9);
+}
+.user{
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+.inputBox{
+	position: absolute;
+	top: 10px;
+	color: green;
+
+}
+.loginBox input[type="submit"]{
+ height: 40px;
+ font-size: 16px;
+ background: black;
+ color: white;
+ border-radius: 20px;
+ cursor: pointer;
+}
+.loginBox input[type="submit"]:hover{
+	color: black;
+	font-weight: 10px;
+	background: transparent;
+	transform: scale(1.0);
+	/*transition: 1s;*/
+}
+.loginBox a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+.loginBox a:hover{
+
+	color: #05f455;
+	text-decoration: underline;
+}
+h3{
+	margin: 0;
+	padding: 5px 5px 5px;
+	font-size: 30px;
+	color: #262626;
+	text-align: center;
+	background: transparent;
+    color: black;
+    border-bottom: 6px solid;
+    border-radius: 20px;
+    border-color: black;
+    height: 40px;
+    text-decoration: underline;
+}
+.loginBox input{
+width: 100%;
+margin-bottom: 20px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]{
+	height: 30px;
+	color: blue;
+	font-size: 20px;
+	padding-left: 0px;
+	box-sizing: border-box;
+	width: 100%;
+	overflow: hidden;
+	color: black;
+	background: transparent;
+	border: none;
+	border-color: black;
+	outline:none;
+	border-bottom: 2px solid #4caf50;
+}
+
+.loginBox input[type="text"]:focus,
+.loginBox input[type="password"]:focus{
+	border-bottom: 2px solid #f00;
+}
+.inputBox{
+	position: relative;
+}
+button{
+
+}
